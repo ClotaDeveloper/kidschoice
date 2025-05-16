@@ -1,0 +1,29 @@
+2025-04-22 12:53:59 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/vinay.sunkoju/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/vinay.sunkoju/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-04-22 12:53:59 [main] INFO  c.c.k.KidschoiceApplicationTests - Starting KidschoiceApplicationTests using Java 17.0.8.1 on clota-dt16 with PID 14532 (started by vinay.sunkoju in E:\ProdKidsStore Workspace\kidschoice)
+2025-04-22 12:53:59 [main] INFO  c.c.k.KidschoiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-22 12:54:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-22 12:54:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 268 ms. Found 2 JPA repository interfaces.
+2025-04-22 12:54:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$520e3fe5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-04-22 12:54:01 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-04-22 12:54:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-22 12:54:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-22 12:54:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-22 12:54:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2025-04-22 12:54:03 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-22 12:54:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2016Dialect
+2025-04-22 12:54:05 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-22 12:54:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-22 12:54:06 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-22 12:54:07 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24ae2183, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b697993, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bdaf563, org.springframework.security.web.header.HeaderWriterFilter@62eb918, org.springframework.web.filter.CorsFilter@678b3746, org.springframework.security.web.authentication.logout.LogoutFilter@5f3fafca, com.client.kidschoice.config.JwtRequestFilter@4aadf144, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cb2b947, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68423388, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ffb0bb4, org.springframework.security.web.session.SessionManagementFilter@2ef812b, org.springframework.security.web.access.ExceptionTranslationFilter@3ce4eb42, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24381e4a]
+2025-04-22 12:54:08 [main] INFO  c.c.k.KidschoiceApplicationTests - Started KidschoiceApplicationTests in 9.622 seconds (JVM running for 11.542)
+2025-04-22 12:54:08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-22 12:54:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-22 12:54:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

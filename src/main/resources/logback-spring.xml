@@ -1,0 +1,29 @@
+<configuration>
+
+    <property name="LOG_FOLDER" value="logs" />
+    <property name="DATE_PATTERN" value="dd-MM-yyyy" />
+    <property name="MONTH_PATTERN" value="MMMM-yyyy" />
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_FOLDER}/%d{${MONTH_PATTERN}}/applicationlogs-%d{${DATE_PATTERN}}.log</fileNamePattern>
+            <maxHistory>90</maxHistory> <!-- Keeps logs for 90 days -->
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>

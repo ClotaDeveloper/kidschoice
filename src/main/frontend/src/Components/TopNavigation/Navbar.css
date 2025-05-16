@@ -1,0 +1,94 @@
+.navbar-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background-color: #f25c5c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+
+.top-bar .left-info span {
+  margin-right: 15px;
+}
+
+.top-bar .right-info a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f25c5c;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo .tagline {
+  font-size: 12px;
+  color: #888;
+}
+
+.search-box input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 350px;
+  
+}
+
+.icons svg {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.menu-bar {
+  background-color: #36c2c2;
+  padding: 10px 20px;
+  display: flex;
+  gap: 25px;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.menu-bar a:hover {
+  text-decoration: underline;
+}
+
+.logo-image {
+  width: 100px; 
+  height: auto;
+}
+
+.navbar-btn{
+    background-color: #36c2c2;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 5px;
+  
+}
